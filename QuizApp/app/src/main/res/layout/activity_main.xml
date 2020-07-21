@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:scaleType="fitXY"
+        android:src="@drawable/quiz" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:text="Q.1 In which of the following  substances all carbon atoms are quaternary in nature?"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/radioButton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="11dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:text="Graphite" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="11dp"
+                        android:layout_weight="1"
+                        android:text="Diamond" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="11dp"
+                        android:layout_weight="1"
+                        android:text="Teflon" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="11dp"
+                        android:layout_weight="1"
+                        android:text="Naphthalene" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q.2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:text="Q.2 Which among the following have 3 hearts?"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:text="Squid" />
+
+                <CheckBox
+                    android:id="@+id/checkbox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:text="Hagfish" />
+
+                <CheckBox
+                    android:id="@+id/checkbox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:text="Octopus" />
+
+                <CheckBox
+                    android:id="@+id/checkbox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:text="Star Fish" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q.3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:text="Q.3 Which of the following are pollutants? "
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkbox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:text="Carbon Dioxide" />
+
+                <CheckBox
+                    android:id="@+id/checkbox6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:text="Sulphur Dioxide" />
+
+                <CheckBox
+                    android:id="@+id/checkbox7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:text="Carbon Monoxide" />
+
+                <CheckBox
+                    android:id="@+id/checkbox8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:text="Oxygen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q.4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:text="Q.4 The colour of the eye depends upon the pigment present inside?"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/radioButton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="11dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_weight="1"
+                        android:text="Cornea" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="11dp"
+                        android:layout_weight="1"
+                        android:text="Iris" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="11dp"
+                        android:layout_weight="1"
+                        android:text="Rods" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="11dp"
+                        android:layout_weight="1"
+                        android:text="Cones" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="11dp"
+                    android:text="Q.5 How many brains does this creature has (Write in words)? "
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/download"></ImageView>
+
+                <EditText
+                    android:id="@+id/answerInputUser"
+                    android:layout_width="44dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="44dp"></EditText>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#008000"
+                android:gravity="center"
+                android:text="Submit"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
