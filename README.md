@@ -1,8 +1,4 @@
 # Quiz-App
-● Project Quiz App of Android Basics Nanodegree.
-
-● Android Basics Nanodegree at Udacity.com.
-
 
 # Android Goodies
 ● View items: Checkboxes, radio buttons and EditText.
